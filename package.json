@@ -1,0 +1,19 @@
+{
+  "name": "invitacion-boda",
+  "version": "1.0.0",
+  "description": "Invitación digital elegante para ceremonia de Eucaristía",
+  "main": "invitacion-boda.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "boda",
+    "invitacion",
+    "eucaristia"
+  ],
+  "author": "",
+  "license": "MIT"
+}

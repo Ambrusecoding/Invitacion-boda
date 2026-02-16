@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitación de Boda - Laura Valentina & Juan Esteban</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <!-- Background Image -->
+      <div class="hero-bg">
+        <img
+          src="imagenbanner.png"
+          alt="Laura Valentina y Juan Esteban"
+          class="hero-bg-image"
+        />
+      </div>
+
+      <!-- Overlay with decorative corners -->
+      <div class="hero-overlay"></div>
+
+      <!-- Content -->
+      <div class="hero-content">
+        <div class="fade-in">
+          <div class="hero-initials">LV & JE</div>
+        </div>
+        <div class="ornament fade-in fade-in-delay-1"></div>
+        <div class="hero-subtitle fade-in fade-in-delay-2">
+          Celebran su unión en Ceremonia de Eucaristía
+        </div>
+        <div class="hero-names fade-in fade-in-delay-3">
+          Laura Valentina Rivera Cuellar<br />
+          <span class="hero-separator">&</span><br />
+          Juan Esteban Carvallo Cabrera
+        </div>
+        <div class="hero-date fade-in fade-in-delay-4">
+          SÁBADO, 21 DE MARZO DE 2026
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story-section">
+      <div class="story-container">
+        <div class="story-content">
+          <div class="story-text-left fade-in">
+            <h3 class="story-title">Nuestro Amor</h3>
+            <p class="story-subtitle">Por los Jardines</p>
+          </div>
+
+          <div class="story-image-center fade-in fade-in-delay-1">
+            <img
+              src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&h=800&fit=crop"
+              alt="Foto de la pareja"
+              class="story-photo"
+            />
+          </div>
+
+          <div class="story-text-right fade-in fade-in-delay-2">
+            <h3 class="story-title">(Y el Uno</h3>
+            <p class="story-subtitle">Por el Otro)</p>
+          </div>
+        </div>
+
+        <div class="story-description fade-in fade-in-delay-3">
+          <p>
+            Nuestra historia comenzó en el año 2020, en medio de la pandemia,
+            cuando Dios empezó a escribir silenciosamente nuestro camino. Sin
+            embargo, realmente nos conocimos y nos vimos por primera vez en la
+            universidad, mientras ambos cantábamos en un grupo de música en
+            común. Entre canciones, miradas y sueños compartidos, nació una
+            amistad que con el tiempo floreció en un amor profundo y verdadero.
+          </p>
+          <p style="margin-top: 1rem">
+            Hoy, siendo muy allegados a Dios, y con la bendición de Él, queremos
+            unir nuestras vidas para dar testimonio de nuestro amor y caminar
+            juntos hacia una vida de santidad. Ante Dios y nuestros seres
+            queridos, celebramos el regalo de habernos encontrado y la gracia de
+            construir un hogar cimentado en la fe.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-grid">
+        <div class="gallery-item fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1623521897946-7b0a1e4ce7b9?w=500&h=700&fit=crop"
+            alt="Momento especial 1"
+            class="gallery-photo"
+          />
+        </div>
+        <div class="gallery-item fade-in fade-in-delay-1">
+          <img
+            src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=500&h=700&fit=crop"
+            alt="Momento especial 2"
+            class="gallery-photo"
+          />
+        </div>
+        <div class="gallery-item fade-in fade-in-delay-2">
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=700&fit=crop"
+            alt="Momento especial 3"
+            class="gallery-photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Date & Time Section -->
+    <section class="section">
+      <h2 class="section-title">Fecha y Hora</h2>
+      <div class="ornament"></div>
+      <p class="section-text">
+        Los invitamos a acompañarnos en este momento sagrado y especial de
+        nuestras vidas.
+      </p>
+
+      <div class="datetime-grid">
+        <div class="datetime-card">
+          <i data-lucide="calendar-days" class="datetime-icon"></i>
+          <div class="datetime-label">Fecha</div>
+          <div class="datetime-value">21 de Marzo de 2026</div>
+        </div>
+        <div class="datetime-card">
+          <i data-lucide="clock" class="datetime-icon"></i>
+          <div class="datetime-label">Hora</div>
+          <div class="datetime-value">4:00 PM</div>
+        </div>
+        <div class="datetime-card">
+          <i data-lucide="church" class="datetime-icon"></i>
+          <div class="datetime-label">Ceremonia</div>
+          <div class="datetime-value">Eucaristía</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="section">
+      <h2 class="section-title">Cuenta Regresiva</h2>
+      <div class="ornament"></div>
+
+      <div class="countdown" id="countdown">
+        <div class="countdown-item">
+          <span class="countdown-number" id="days">--</span>
+          <span class="countdown-label">Días</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="hours">--</span>
+          <span class="countdown-label">Horas</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="minutes">--</span>
+          <span class="countdown-label">Minutos</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="seconds">--</span>
+          <span class="countdown-label">Segundos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="section">
+      <h2 class="section-title">Lugar de la Ceremonia</h2>
+      <div class="ornament"></div>
+
+      <div class="location-card">
+        <div class="location-name">Parroquia San José</div>
+        <div class="location-address">
+          Calle 15 #8-45<br />
+          Centro, Neiva<br />
+          Huila, Colombia
+        </div>
+        <div class="ornament"></div>
+        <a
+          href="https://maps.google.com"
+          target="_blank"
+          class="location-map-btn"
+        >
+          Ver en el Mapa
+        </a>
+      </div>
+    </section>
+
+    <!-- Guests Section (Dynamic) -->
+    <section class="section">
+      <h2 class="section-title">Invitación Especial</h2>
+      <div class="ornament"></div>
+
+      <div class="guests-card">
+        <div class="guests-greeting" id="guestsGreeting">
+          Con mucho cariño, invitamos a
+        </div>
+        <div class="guests-names" id="guestsNames">
+          [Nombre de los Invitados]
+        </div>
+        <div class="ornament"></div>
+        <div class="guests-count">
+          Pases disponibles:
+          <span class="guests-count-number" id="guestsCount">--</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Note Section -->
+    <section class="section">
+      <h2 class="section-title">Importante</h2>
+      <div class="ornament"></div>
+
+      <div class="important-card">
+        <i data-lucide="heart" class="important-icon"></i>
+        <h3 class="important-title">Solo Ceremonia Religiosa</h3>
+        <p class="important-text">
+          Esta invitación es únicamente para acompañarnos en nuestra
+          <strong>Ceremonia de Eucaristía</strong>. No habrá recepción ni fiesta
+          posterior. Queremos que este momento sea íntimo y centrado en la
+          celebración de nuestra unión ante Dios.
+        </p>
+      </div>
+
+      <div class="important-card">
+        <i data-lucide="gift" class="important-icon"></i>
+        <h3 class="important-title">El Regalo de Tu Presencia</h3>
+        <p class="important-text">
+          Tu presencia en este día especial es el único regalo que necesitamos y
+          valoramos profundamente. Por favor,
+          <strong
+            >no sientas la necesidad de traer obsequios, sobres o
+            detalles</strong
+          >. Tu compañía, bendición y buenos deseos son más que suficientes para
+          nosotros.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <p class="contact-text">
+          Si tienes alguna pregunta o necesitas más información, no dudes en
+          contactarnos:
+        </p>
+        <div class="contact-buttons">
+          <a
+            href="https://wa.me/573043723434?text=Hola,%20tengo%20una%20pregunta%20sobre%20la%20ceremonia"
+            class="contact-btn"
+            target="_blank"
+          >
+            <i
+              data-lucide="message-circle"
+              style="width: 20px; height: 20px; margin-right: 8px"
+            ></i>
+            WhatsApp
+          </a>
+          <a href="tel:+573043723434" class="contact-btn">
+            <i
+              data-lucide="phone"
+              style="width: 20px; height: 20px; margin-right: 8px"
+            ></i>
+            Llamar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Information -->
+    <section class="section">
+      <h2 class="section-title">Información Adicional</h2>
+      <div class="ornament"></div>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <i data-lucide="shirt" class="info-icon"></i>
+          <div class="info-title">Dress Code</div>
+          <div class="info-text">
+            Sugerimos vestimenta formal y elegante para la ceremonia religiosa.
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i data-lucide="alarm-clock" class="info-icon"></i>
+          <div class="info-title">Puntualidad</div>
+          <div class="info-text">
+            Les pedimos llegar 15 minutos antes del inicio de la ceremonia para
+            facilitar el ingreso al templo.
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i data-lucide="camera" class="info-icon"></i>
+          <div class="info-title">Fotografías</div>
+          <div class="info-text">
+            Durante la ceremonia, solicitamos que las fotografías sean tomadas
+            de manera discreta y sin flash, respetando la solemnidad del
+            momento.
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i data-lucide="heart-handshake" class="info-icon"></i>
+          <div class="info-title">Tu Presencia es Suficiente</div>
+          <div class="info-text">
+            Tu presencia, oraciones y bendición son todo lo que necesitamos. No
+            es necesario traer obsequios ni detalles.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-initials">LV & JE</div>
+      <div class="footer-text">
+        "Y los dos serán una sola carne" — Evangelio según San Marcos 10:8
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
