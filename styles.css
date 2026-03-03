@@ -233,7 +233,7 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-       filter: blur(7px); /* Ajusta los px para mayor/menor blur */
+       filter: blur(4px); /* Ajusta los px para mayor/menor blur */
     transition: filter 0.3s ease; /* Transición suave opcional */
 }
 
