@@ -39,15 +39,16 @@ function loadGuestsFromURL() {
     }
   }
 
-  // Actualizar cantidad de pases
-  if (cantidad) {
-    guestsCount.textContent = cantidad;
-  } else if (nombres) {
-    // Si no se especifica cantidad, usar el número de nombres
-    const namesArray = nombres.split(",");
-    guestsCount.textContent = namesArray.length;
-  } else {
-    guestsCount.textContent = "1";
+  // Actualizar cantidad de pases (solo si existe el elemento)
+  if (guestsCount) {
+    if (cantidad) {
+      guestsCount.textContent = cantidad;
+    } else if (nombres) {
+      const namesArray = nombres.split(",");
+      guestsCount.textContent = namesArray.length;
+    } else {
+      guestsCount.textContent = "1";
+    }
   }
 }
 
